@@ -1,4 +1,4 @@
-# Foobar
+# Anti Twitter(+) Discord Bot
 
 This is Discord bot code that deletes a messages if it contains certain domains(urls)
 
