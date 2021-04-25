@@ -14,7 +14,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
 
-    if (message.guild.id == config.discord_server_ids[#]) { // if only being used for one discord server just replace config.discord_server_ids with the guild id
+    if (message.guild.id == config.discord_server_ids[1]) { // if only being used for one discord server just replace config.discord_server_ids with the guild id
         cursed_domains.forEach(obj => {
             if ((message.content).includes(obj.main_domain)) {
 
