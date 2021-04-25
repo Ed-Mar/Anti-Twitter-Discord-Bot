@@ -21,7 +21,7 @@ Going to need to make two files
     ```json
     "discord_server_ids":[#####,#####,...]
     ```
-        - Note: you can just throw your server id directly if you want(So no need for this). I just have so I could flip easy between my test server and desired server  
+    - Note: you can just throw your server id directly if you want(So no need for this). I just have so I could flip easy between my test server and desired server  
 
 
 ## TODO
