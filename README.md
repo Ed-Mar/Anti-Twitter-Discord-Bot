@@ -1,6 +1,6 @@
 # Foobar
 
-This is Discord Bot Code the deletes a messages that includes certain domains
+This is Discord bot code that deletes a messages if it contains certain domains(urls)
 
 ## Installation
 
