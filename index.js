@@ -14,7 +14,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
 
-    if (message.guild.id == config.discord_server_ids[1]) {
+    if (message.guild.id == config.discord_server_ids[#]) { // if only being used for one discord server just replace config.discord_server_ids with the guild id
         cursed_domains.forEach(obj => {
             if ((message.content).includes(obj.main_domain)) {
 
@@ -28,18 +28,9 @@ client.on('message', message => {
                 //     .then(msg => console.log(`Updated the content of a message to ${msg.content}`))
                 //     .catch(console.error);
 
-                if (message.author == config.problem_users[0]) {
-
-                    message.channel.send(`Refrain from posting anything from that domain ${message.author}`)
-                        .then(f => f.react(`🖕`))
-                } else
-                    message.channel.send(`Refrain from posting anything from that domain ${message.author}`)
+                message.channel.send(`Refrain from posting anything from that domain ${message.author}`)
             }
         })
     }
-    if ((message.content).includes("fuck you") && message.author == config.problem_users[0]) {
-        message.reply('No Fuck You')
-            .then(() => console.log(`${message.author.username} is out here throwing shade had to throw it back`))
-            .catch(console.error);
-    }
+
 })
